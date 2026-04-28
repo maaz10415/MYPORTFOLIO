@@ -12,7 +12,7 @@ sections.forEach(sec=>{
 observer.observe(sec);
 });
 
-/* SMOOTH SCROLL FOR HEADER LINKS */
+
 document.querySelectorAll(".nav-links a[href^='#']").forEach(link=>{
 link.addEventListener("click", function(e){
 e.preventDefault();
@@ -26,7 +26,7 @@ block:"start"
 });
 });
 
-/* HERO BUTTON SCROLL */
+
 document.getElementById("scrollBtn").addEventListener("click", function(e){
 e.preventDefault();
 document.querySelector("#projects").scrollIntoView({
